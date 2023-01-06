@@ -77,7 +77,7 @@ function, create vector of integers. If you don't actually use the
 template class, the compiler will not try to compile and use it and so
 you won't get any error messages.
 
-If you try to compile now, it should fail as interface we've given you
+If you try to compile now, it should fail as the interface we've given you
 is just the declarations and you haven't implemented and of the
 functions. Fix this by stubbing out all of the functions in the class
 interface. For void functions, just replace the semicolon (;) at the end
@@ -85,7 +85,7 @@ of the line with open and close curly braces ({}). For functions that
 have a return type, return a default null value. Once your program
 compiles, you are ready to move on and start implementing the class.
 
-# Part 1 (10 pts) -- Basic constructor, toString(), & push_back()
+# Part 1 (15 pts) -- Basic constructor, toString(), & push_back()
 
 Let's start by getting the basic constructor working along with the
 push_back() and toString() methods so we can see changes in the vector.
@@ -172,7 +172,7 @@ message.
 Once you've completed these methods, add code to your main.cpp to verify
 that they are working properly
 
-# Part 4 (10 pts) -- Changing the vector's size
+# Part 4 (15 pts) -- Changing the vector's size
 
 Now that we can add and retrieve data, it's time to revisit the issue of
 what to do when we try to add another element when the internal data
@@ -392,15 +392,6 @@ check for efficiency.
 Implement the equality operator for your vector class and add some test
 code to your main to verify that it is working properly.
 
-# Part 10 (10 points) -- Check for memory leaks
-
-If you haven't been already, run valgrind on the program you've written
-along the way to test everything. You may also want to add in some more
-code that explicitly creates and deletes some vectors (either
-dynamically, as part of functions, or both) so that it exercises your
-destructor and other operations that should be creating and deleting
-memory. If you did everything properly, you should have no memory leaks.
-If you do, track them down and fix them.
 
 # Submit your code
 

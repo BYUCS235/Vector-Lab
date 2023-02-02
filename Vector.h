@@ -27,7 +27,7 @@ public:
     size_t size() const;
     void resize(size_t new_size);
     std::string toString() const;
-    friend std::ostream & operator<< (std::ostream & os, Vector<T> & obj); // not sure if we should include this one
+    friend std::ostream & operator<< (std::ostream & os, Vector<T> & obj); // optional. You may find it handy for testing purposes.
     // adding data
     void push_back(const T& value);
     void insert(size_t index, const T& value);

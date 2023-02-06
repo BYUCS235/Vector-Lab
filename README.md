@@ -79,7 +79,7 @@ template class, the compiler will not try to compile and use it and so
 you won't get any error messages.
 
 If you try to compile now, it should fail as the interface we've given you
-is just the declarations and you haven't implemented and of the
+is just the declarations and you haven't implemented any of the
 functions. Fix this by stubbing out all of the functions in the class
 interface. For void functions, just replace the semicolon (;) at the end
 of the line with open and close curly braces ({}). For functions that

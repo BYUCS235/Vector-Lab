@@ -69,8 +69,9 @@ to build out your class.
 
 Start by creating a new program and getting it to compile. You'll need
 the Vector.h file and a main.cpp to contain your main() function that
-you'll use to test the Vector class as you write it. You'll also need to
-create a Makefile to build the program.
+you'll use to test the Vector class as you write it. You may also want to
+create a Makefile to build the program if you're building on the command line
+and not in CLion.
 
 In your main.cpp, #include the Vector.h file and, in the main()
 function, create vector of integers. If you don't actually use the
